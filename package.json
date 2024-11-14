@@ -1,14 +1,14 @@
 {
   "main": "src/index.tsx",
-  "name": "react-starter-split-webpack-5-ts",
+  "name": "react-todo",
   "config": {
     "dev": "--config __webpack__/dev.config.js",
     "prod": "--config __webpack__/prod.config.js"
   },
   "version": "1.0.0",
-  "description": "React Starter App using TS",
-  "homepage": "https://github.com/Cere8ellum/react-starter-split-webpack-5-ts#readme",
-  "author": "Cere8ellum",
+  "description": "React Todo",
+  "homepage": "https://github.com/Seventimezzz",
+  "author": "Seventimes",
   "scripts": {
     "webpack-config-dev": "nodemon --watch \"./__webpack__/*\" --exec npm run start-dev",
     "webpack-config-prod": "nodemon --watch \"./__webpack__/*\" --exec npm run start-prod",
