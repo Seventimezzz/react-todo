@@ -115,7 +115,13 @@ module.exports = {
   // Modules resolved
   resolve: {
     alias: {
+      "@app": path.join(__dirname, "..", "src", "app"),
       "@pages": path.join(__dirname, "..", "src", "pages"),
+      "@features": path.join(__dirname, "..", "src", "features"),
+      "@widgets": path.join(__dirname, "..", "src", "widgets"),
+      "@features": path.join(__dirname, "..", "src", "features"),
+      "@entities": path.join(__dirname, "..", "src", "entities"),
+      "@shared": path.join(__dirname, "..", "src", "shared"),
     },
     extensions: [".tsx", ".ts", ".js"],
   },

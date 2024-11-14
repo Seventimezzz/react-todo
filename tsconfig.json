@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "baseUrl": "./",
     "paths": {
-      "@pages/*": ["./src/pages/*"]
+      "@app": ["src/app"],
+      "@pages": ["src/pages"],
+      "@features": ["src/features"],
+      "@widgets": ["src/widgets"],
+      "@entities": ["src/entities"],
+      "@shared": ["src/shared"]
     },
     "rootDirs": ["src", "__jest__"],
     "outDir": "build",
