@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { ROUTES } from "./constants";
-import { MainPage } from "../pages/Main/MainPage";
+import { MainPage } from "@pages/index";
 
 export default function AppRoutes() {
   return (

@@ -114,6 +114,9 @@ module.exports = {
   },
   // Modules resolved
   resolve: {
+    alias: {
+      "@pages": path.join(__dirname, "..", "src", "pages"),
+    },
     extensions: [".tsx", ".ts", ".js"],
   },
   module: {
